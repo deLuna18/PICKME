@@ -7,15 +7,6 @@ import java.awt.Insets;
 public class Gender implements ActionListener {
 
     private JFrame frame;
-    private JButton[] btn; // btn is an array of JButton
-    
-    //Array of String
-    private String[] btnText = {
-            "Street Style", "Casual", "<html> Dressy <br> Casual </html>",
-            "<html> Dressy <br> Casual </html>", "Semi-Formal", "Street Style",
-            "Casual", "<html> Dressy <br> Casual </html>",
-            "<html> Dressy <br> Casual </html>", "Semi-Formal"
-    };
 
     public static void main(String[] args) {
         new GettingStarted();
